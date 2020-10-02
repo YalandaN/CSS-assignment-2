@@ -14,18 +14,10 @@ body {
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
-    width: 600px;
     display: block;
     margin: 0 auto;
-}
-article {
-  margin: 0 auto;
-  align-content: center;
-}
-section {
-  max-width: 600px;
-  margin: 0 auto;
-  align-content: center;
+    padding-top: 2.0rem;
+
 }
 header {
   background: #333;
@@ -34,9 +26,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-h2 {
-  text-align: center;
 }
 nav ul {
   display: flex;
@@ -60,8 +49,17 @@ footer {
 footer p {
   text-align: center;
 }
-
-
+article {
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex: 1 1 auto;
+}
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  flex-basis: 600px;
+}
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
     B26219 cinnamon
@@ -77,35 +75,32 @@ footer p {
    666 dark medium gray
    999 light medium gray
    ccc pale gray
-   fff white
-*/
+   fff white */
 
-/* --- link pseudo classes --- */
-/* --- you may ADD other link pseudo classes for
-        specific articles or sections to improve CONTRAST --- */
 #cougar {
   background-color: #FFE4A1;
-  padding: 3rem;
   margin: 0 auto;
 }
 #lion {
   background-color: #FFD5AE;
-  padding: 3rem;
   margin: 0 auto;
 }
 #tiger {
   background-color: #FFBD82;
-  padding: 3rem;
   margin: 0 auto;
 }
 .text {
-  background: #fff;
   color: #000;
+  padding-top: 1rem;
   display: block;
   margin: 0 auto;
-  max-width: 600px;
-  padding: 3rem;
+  margin-left: 1rem;
+  line-height: 1.5rem;
 }
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
 
 a {
     color: #379CB2;
